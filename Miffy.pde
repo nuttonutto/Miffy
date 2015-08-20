@@ -6,13 +6,19 @@ void draw(){
   background(#333333);
   smooth();
   noStroke();
+ 
+  //Feet
+  strokeWeight(27);
+  stroke(255);
+  strokeCap(ROUND);
+  point(308,262);
+  point(332,262);
   
   //Hand
   strokeWeight(20);
-  stroke(255);
-  strokeCap(ROUND);
   point(270,200);
   point(370,200);
+  
   //Dress
   noStroke();
   fill(255,0,0);
