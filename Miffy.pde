@@ -9,7 +9,7 @@ void draw(){
  
   //Feet
   strokeWeight(27);
-  stroke(255);
+  stroke(#ecf0f1);
   strokeCap(ROUND);
   point(308,262);
   point(332,262);
@@ -21,10 +21,10 @@ void draw(){
   
   //Dress
   noStroke();
-  fill(255,0,0);
+  fill(#e74c3c);
   quad(290,180,350,180,360,250,280,250); 
   ellipse(320,250,80,30);
-  stroke(255,0,0);
+  stroke(#e74c3c);
   strokeCap(SQUARE);
   line(270,200,300,200);
   line(340,200,370,200);
